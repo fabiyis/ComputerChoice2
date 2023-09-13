@@ -52,3 +52,5 @@ function playRound(playerSelection,computerSelection) {
     console.log('It\'s a tie game.');
   }
  }
+
+ game();
