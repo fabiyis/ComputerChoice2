@@ -1,9 +1,9 @@
 const prompt = require('prompt-sync')();
 
 function getComputerChoice() {
-    const choices = ["rock", "paper", "scissors"]
-    const randomIndex = Math.floor(Math.random() * choices.length);
-    return choices[randomIndex];
+    let choices = ["rock", "paper", "scissors"]
+    let choice = Math.floor(Math.random() * choices.length);
+    return choices[choice];
 }
 
 function playRound(playerSelection,computerSelection) {
@@ -25,4 +25,3 @@ function playRound(playerSelection,computerSelection) {
     }
     }
 
-    console.log(`Welcome to Rock, Paper, Scissors!`);
