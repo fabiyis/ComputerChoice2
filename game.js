@@ -18,9 +18,9 @@ function playRound(playerSelection,computerSelection) {
       (playerSelection === 'paper' && computerSelection ==='rock')
       )
     {
-      return `You Won ${playerSelection} beats ${computerSelection}`;
+      return `"You Won! ${playerSelection} beats ${computerSelection}"`;
     } else {
-      return `You Lose ${computerSelection} beats ${playerSelection}`;
+      return `"You Lose! ${computerSelection} beats ${playerSelection}"`;
     }
   }
 
